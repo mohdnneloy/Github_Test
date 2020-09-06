@@ -21,7 +21,36 @@ Cloning the repository into your PC.
 6. Finally close the Git Bash. Go to the folder that has been created. Right Click and open Git Bash. This will change the directory to 
 the space where you will be adding your files.
 
-Adding file to the github repository from the folder using Git Bash
+Checking Git status (Changes in the project)
+
+1. In the Git Bash just type 'git status'. Press Enter. This will show every change or any required change in the project.
+
+Adding a new file to the project directory using Git Bash 
 
 1. Copy the file you want to add, directly to the directory you are working on.
-2. 
+2. On the Git Bash type 'git add' and then enter the file name along with the extension.
+   Or if you want to add all files together just type 'git add .'. This will add all the new file automatically. We need to do this adding file before we push it and send 
+   it the main github repository.
+
+
+Commiting new files to the github repository using Git Bash
+
+1. After we have added a new file, we need to commit the chaanges that is add a comment on what has been changed.
+2. To make a commit in Git Bash type 'git commit -m "add your comment here" ' you can add your comment. Press enter.
+
+Pushing the new files into the github repository
+
+1. Before pushing the new files into the repository we need to add them and make the necessary commits.
+2. On Git Bash type 'git push' or 'git push origin 'select branch'', the repository can have many branches. Select the branch accordingly.
+
+Changing a file data
+
+If any changes are made in a file the file needs to be added and commited before it is pushed into the repository.
+Follow the above commands to do whats needed.
+
+Log In to your Github ID before Pushing
+
+Sometimes if the browsers logged in email is different from the github's email then we have to log in using the Git Bash. Also, even if we reopen the 
+Git Bash we have to select the email of the github where we want to make the changes including the adding of files, commits and pushes.
+
+ 
