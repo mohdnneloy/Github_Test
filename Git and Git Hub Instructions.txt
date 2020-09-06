@@ -53,3 +53,18 @@ Log In to your GitHub ID before Pushing
 Sometimes if the browsers logged in email is different from the GitHub email then we have to log in using the Git Bash. Also, even if we reopen the
 Git Bash we have to select the email of the GitHub where we want to make the changes including the adding of files, commits and pushes.
 To enter the necessary email type 'git config --global user.email "your email"'
+
+Git Pull command
+
+This command is used to pull over the changes in the repository directly to your project in the PC directory.
+To pull up the changes just type "git pull". And your files will be updated
+
+Creating a New branch
+
+Branches are copies of the repository. A repository mainly has only one branch that is 'master', but we can make new branches if we want to work on a copy of the repository and Make
+changes accordingly to the main code.
+To create a new branch we just need to type 'git branch ' and the branch name. The press enter.
+
+Switching to a new branch
+
+To switch to a new branch just type 'git checkout' and the branch name. The press enter.
