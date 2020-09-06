@@ -63,8 +63,12 @@ Creating a New branch
 
 Branches are copies of the repository. A repository mainly has only one branch that is 'master', but we can make new branches if we want to work on a copy of the repository and Make
 changes accordingly to the main code.
-To create a new branch we just need to type 'git branch ' and the branch name. The press enter.
+To create a new branch we just need to type 'git branch ' and the branch name. Then press enter.
 
 Switching to a new branch
 
-To switch to a new branch just type 'git checkout' and the branch name. The press enter.
+To switch to a new branch just type 'git checkout' and the branch name. Then press enter.
+
+Pushing a new branch into the repository
+
+Simply type "git push --set--upstream origin " and the branch name. Then press enter.
