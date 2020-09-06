@@ -1,0 +1,27 @@
+INSTALLING GIT INTO YOUR PC
+
+1. Go to the official website of Git and download the version of Git that suits for your computer. Link - https://git-scm.com/
+2. Follow the recommended settings for the installation. Make sure a desktop shortcut and a stat menu app is installed.
+3. Press 'Finish' when it is installed.
+
+Creating A Git Repository
+
+1. Go to you profile on the upper right corner of the screen.
+2. Select 'Your Repositories'.
+3. Click on 'New'. And give your project a name.
+4. Then click on 'Create Repository'.
+
+Cloning the repository into your PC.
+
+1. Open a directory where you want to work on your project on file explorer on windows.
+2. Right click and select 'Git Bash'. A terminal will open.
+3. Open your github repository on that you want to clone on the browser. Click on 'Code'. And copy the first web URL.
+4. Open the Git Bash and type 'git clone' and then paste the URL. Press Enter.
+5. A new folder with the repository name will appear in your prefered directory along with the files in it.
+6. Finally close the Git Bash. Go to the folder that has been created. Right Click and open Git Bash. This will change the directory to 
+the space where you will be adding your files.
+
+Adding file to the github repository from the folder using Git Bash
+
+1. Copy the file you want to add, directly to the directory you are working on.
+2. 
