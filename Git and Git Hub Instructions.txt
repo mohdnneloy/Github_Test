@@ -71,4 +71,4 @@ To switch to a new branch just type 'git checkout' and the branch name. Then pre
 
 Pushing a new branch into the repository
 
-Simply type "git push --set--upstream origin " and the branch name. Then press enter.
+Simply type "git push --set-upstream origin " and the branch name. Then press enter.
