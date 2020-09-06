@@ -15,42 +15,41 @@ Cloning the repository into your PC.
 
 1. Open a directory where you want to work on your project on file explorer on windows.
 2. Right click and select 'Git Bash'. A terminal will open.
-3. Open your github repository on that you want to clone on the browser. Click on 'Code'. And copy the first web URL.
+3. Open your GitHub repository on that you want to clone on the browser. Click on 'Code'. And copy the first web URL.
 4. Open the Git Bash and type 'git clone' and then paste the URL. Press Enter.
-5. A new folder with the repository name will appear in your prefered directory along with the files in it.
-6. Finally close the Git Bash. Go to the folder that has been created. Right Click and open Git Bash. This will change the directory to 
+5. A new folder with the repository name will appear in your preferred directory along with the files in it.
+6. Finally close the Git Bash. Go to the folder that has been created. Right Click and open Git Bash. This will change the directory to
 the space where you will be adding your files.
 
 Checking Git status (Changes in the project)
 
 1. In the Git Bash just type 'git status'. Press Enter. This will show every change or any required change in the project.
 
-Adding a new file to the project directory using Git Bash 
+Adding a new file to the project directory using Git Bash
 
 1. Copy the file you want to add, directly to the directory you are working on.
 2. On the Git Bash type 'git add' and then enter the file name along with the extension.
-   Or if you want to add all files together just type 'git add .'. This will add all the new file automatically. We need to do this adding file before we push it and send 
-   it the main github repository.
+   Or if you want to add all files together just type 'git add .'. This will add all the new file automatically. We need to do this adding file before we push it and send
+   it the main GitHub repository.
 
 
-Commiting new files to the github repository using Git Bash
+Commit new files to the GitHub repository using Git Bash
 
-1. After we have added a new file, we need to commit the chaanges that is add a comment on what has been changed.
+1. After we have added a new file, we need to commit the changes that is add a comment on what has been changed.
 2. To make a commit in Git Bash type 'git commit -m "add your comment here" ' you can add your comment. Press enter.
 
-Pushing the new files into the github repository
+Pushing the new files into the GitHub repository
 
 1. Before pushing the new files into the repository we need to add them and make the necessary commits.
 2. On Git Bash type 'git push' or 'git push origin 'select branch'', the repository can have many branches. Select the branch accordingly.
 
 Changing a file data
 
-If any changes are made in a file the file needs to be added and commited before it is pushed into the repository.
-Follow the above commands to do whats needed.
+If any changes are made in a file the file needs to be added and Committed before it is pushed into the repository.
+Follow the above commands to do what is needed.
 
-Log In to your Github ID before Pushing
+Log In to your GitHub ID before Pushing
 
-Sometimes if the browsers logged in email is different from the github's email then we have to log in using the Git Bash. Also, even if we reopen the 
-Git Bash we have to select the email of the github where we want to make the changes including the adding of files, commits and pushes.
-
- 
+Sometimes if the browsers logged in email is different from the GitHub email then we have to log in using the Git Bash. Also, even if we reopen the
+Git Bash we have to select the email of the GitHub where we want to make the changes including the adding of files, commits and pushes.
+To enter the necessary email type 'git config --global user.email "your email"'
